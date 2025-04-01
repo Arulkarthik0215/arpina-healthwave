@@ -67,8 +67,8 @@ const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
               {link.name}
             </Link>
           ))}
-          <Button className="bg-brand-600 hover:bg-brand-700 text-white">
-            Let's Talk
+          <Button className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
+            <Link to="/contact">Let's Talk</Link>
           </Button>
         </div>
 
@@ -102,9 +102,10 @@ const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
             ))}
             <Button 
               className="bg-brand-600 hover:bg-brand-700 text-white mt-4"
+              asChild
               onClick={() => setIsOpen(false)}
             >
-              Let's Talk
+              <Link to="/contact">Let's Talk</Link>
             </Button>
           </div>
         </div>

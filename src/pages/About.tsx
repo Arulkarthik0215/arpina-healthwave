@@ -1,6 +1,6 @@
 
 import React, { useEffect } from 'react';
-import { Users, Award, TrendingUp } from 'lucide-react';
+import { Users, Award, TrendingUp, Target, FileCheck, HeartHandshake } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -33,7 +33,7 @@ const About: React.FC = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">About ARPINA SOLUTIONS</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Your trusted partner in healthcare informatics, revenue cycle management, and IT solutions.
+            Your trusted partner in BPO services, IT & software placement, and comprehensive training solutions.
           </p>
         </div>
       </section>
@@ -45,20 +45,20 @@ const About: React.FC = () => {
             <div className="fade-in-section">
               <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2010, ARPINA SOLUTIONS was born from a simple observation: healthcare providers were spending too much time on administrative tasks and not enough time with patients.
+                At Arpina Solutions Pvt Ltd, we are committed to transforming business operations and fostering career growth in the digital era. Founded with a vision to provide innovative, reliable, and scalable solutions, we have evolved into a trusted partner for businesses across industries.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Our founder, Dr. Robert Arpina, experienced firsthand the challenges of managing a medical practice while trying to provide quality care. He assembled a team of healthcare and technology experts to create solutions that would allow medical professionals to focus on what they do best—healing patients.
+                Specializing in Business Process Outsourcing (BPO), IT & Software Placement Consultancy, and IT & Software Training, we provide tailored solutions to meet the unique needs of businesses and professionals alike.
               </p>
               <p className="text-lg text-gray-600">
-                Today, ARPINA SOLUTIONS serves hundreds of healthcare providers across the United States, offering a comprehensive suite of services designed to optimize operations, maximize revenue, and enhance patient care.
+                Our journey is defined by our commitment to excellence, client satisfaction, and the continuous pursuit of innovation, making us a preferred choice for organizations looking to optimize their processes and individuals seeking to advance their careers.
               </p>
             </div>
             
             <div className="rounded-lg overflow-hidden shadow-xl fade-in-section">
               <img 
-                src="https://images.unsplash.com/photo-1460672985063-6764ac8b9599?ixlib=rb-4.0.3&auto=format&fit=crop&w=1171&q=80" 
-                alt="Medical professionals in a meeting" 
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1171&q=80" 
+                alt="Business professionals collaborating" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -76,17 +76,23 @@ const About: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Mission */}
             <div className="bg-white rounded-lg shadow-lg p-8 fade-in-section">
-              <h3 className="text-2xl font-bold mb-4 text-brand-600">Our Mission</h3>
+              <div className="flex items-center mb-6">
+                <Target size={32} className="text-brand-600 mr-4" />
+                <h3 className="text-2xl font-bold text-brand-600">Our Mission</h3>
+              </div>
               <p className="text-gray-600">
-                To empower healthcare providers with innovative solutions that streamline operations, enhance patient care, and maximize financial performance, allowing them to focus on their core mission of delivering exceptional healthcare services.
+                Our mission is to empower organizations and individuals to achieve their full potential by providing exceptional BPO services, effective talent placement, and industry-aligned training solutions. We strive to be a catalyst for growth and success for our clients and candidates.
               </p>
             </div>
 
             {/* Vision */}
             <div className="bg-white rounded-lg shadow-lg p-8 fade-in-section">
-              <h3 className="text-2xl font-bold mb-4 text-purple-600">Our Vision</h3>
+              <div className="flex items-center mb-6">
+                <FileCheck size={32} className="text-purple-600 mr-4" />
+                <h3 className="text-2xl font-bold text-purple-600">Our Vision</h3>
+              </div>
               <p className="text-gray-600">
-                To be the leading provider of integrated healthcare informatics solutions, recognized for our innovation, reliability, and commitment to improving healthcare delivery and outcomes across the nation.
+                We envision a world where businesses are free to focus on innovation and growth, knowing they are supported by a trusted partner in Arpina Solutions. We aim to be the leading provider of integrated business solutions, recognized for our innovation, reliability, and commitment.
               </p>
             </div>
           </div>
@@ -99,7 +105,7 @@ const About: React.FC = () => {
           <div className="text-center mb-16 fade-in-section">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Our Impact</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're proud of the difference we've made for healthcare providers and their patients.
+              We're proud of the difference we've made for businesses and professionals alike.
             </p>
           </div>
 
@@ -107,29 +113,70 @@ const About: React.FC = () => {
             {/* Years of Experience */}
             <div className="p-8 rounded-lg bg-brand-50 fade-in-section">
               <Award size={48} className="mx-auto mb-4 text-brand-600" />
-              <div className="text-5xl font-bold text-gray-800 mb-2">13+</div>
+              <div className="text-5xl font-bold text-gray-800 mb-2">10+</div>
               <div className="text-xl font-medium text-gray-600">Years of Experience</div>
             </div>
 
             {/* Clients Served */}
             <div className="p-8 rounded-lg bg-purple-50 fade-in-section">
               <Users size={48} className="mx-auto mb-4 text-purple-600" />
-              <div className="text-5xl font-bold text-gray-800 mb-2">500+</div>
-              <div className="text-xl font-medium text-gray-600">Healthcare Providers Served</div>
+              <div className="text-5xl font-bold text-gray-800 mb-2">300+</div>
+              <div className="text-xl font-medium text-gray-600">Businesses Served</div>
             </div>
 
-            {/* Revenue Generated */}
+            {/* Professionals Placed */}
             <div className="p-8 rounded-lg bg-teal-50 fade-in-section">
               <TrendingUp size={48} className="mx-auto mb-4 text-teal-600" />
-              <div className="text-5xl font-bold text-gray-800 mb-2">$100M+</div>
-              <div className="text-xl font-medium text-gray-600">Revenue Generated for Clients</div>
+              <div className="text-5xl font-bold text-gray-800 mb-2">1000+</div>
+              <div className="text-xl font-medium text-gray-600">Professionals Placed</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Core Values */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16 fade-in-section">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Our Core Values</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              The principles that guide everything we do.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Value 1 */}
+            <div className="bg-white rounded-lg shadow-lg p-8 text-center fade-in-section">
+              <HeartHandshake size={48} className="mx-auto mb-4 text-brand-600" />
+              <h3 className="text-xl font-bold mb-4 text-gray-800">Client-First Philosophy</h3>
+              <p className="text-gray-600">
+                We build lasting relationships by delivering customized solutions that prioritize client needs and goals.
+              </p>
+            </div>
+
+            {/* Value 2 */}
+            <div className="bg-white rounded-lg shadow-lg p-8 text-center fade-in-section">
+              <Award size={48} className="mx-auto mb-4 text-purple-600" />
+              <h3 className="text-xl font-bold mb-4 text-gray-800">Excellence & Quality</h3>
+              <p className="text-gray-600">
+                We adhere to stringent quality control protocols across all our services, ensuring consistent and superior results.
+              </p>
+            </div>
+
+            {/* Value 3 */}
+            <div className="bg-white rounded-lg shadow-lg p-8 text-center fade-in-section">
+              <FileCheck size={48} className="mx-auto mb-4 text-teal-600" />
+              <h3 className="text-xl font-bold mb-4 text-gray-800">Innovation & Adaptability</h3>
+              <p className="text-gray-600">
+                We stay at the forefront of industry trends and technology advancements to offer solutions that keep you competitive.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 fade-in-section">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Our Leadership Team</h2>
@@ -143,14 +190,14 @@ const About: React.FC = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden fade-in-section">
               <img 
                 src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80" 
-                alt="Dr. Robert Arpina" 
+                alt="Anand Sharma" 
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-800">Dr. Robert Arpina</h3>
+                <h3 className="text-xl font-bold mb-2 text-gray-800">Anand Sharma</h3>
                 <p className="text-brand-600 mb-4">Founder & CEO</p>
                 <p className="text-gray-600">
-                  Former practicing physician with over 20 years of experience in healthcare management and technology integration.
+                  With over 15 years in business transformation and IT services, Anand leads with a vision for innovation and excellence.
                 </p>
               </div>
             </div>
@@ -159,14 +206,14 @@ const About: React.FC = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden fade-in-section">
               <img 
                 src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=688&q=80" 
-                alt="Sarah Martinez" 
+                alt="Priya Mehta" 
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-800">Sarah Martinez</h3>
-                <p className="text-purple-600 mb-4">Chief Operations Officer</p>
+                <h3 className="text-xl font-bold mb-2 text-gray-800">Priya Mehta</h3>
+                <p className="text-purple-600 mb-4">Director of Placement Services</p>
                 <p className="text-gray-600">
-                  Healthcare administrator with expertise in optimizing clinical workflows and revenue cycle management.
+                  A recruitment strategist with expertise in connecting top-tier talent with leading organizations across industries.
                 </p>
               </div>
             </div>
@@ -175,14 +222,14 @@ const About: React.FC = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden fade-in-section">
               <img 
                 src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80" 
-                alt="Michael Chang" 
+                alt="Vikram Joshi" 
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-800">Michael Chang</h3>
-                <p className="text-teal-600 mb-4">Chief Technology Officer</p>
+                <h3 className="text-xl font-bold mb-2 text-gray-800">Vikram Joshi</h3>
+                <p className="text-teal-600 mb-4">Head of Training & Development</p>
                 <p className="text-gray-600">
-                  Former healthcare IT director with deep expertise in HIPAA-compliant systems and healthcare software integration.
+                  An education innovator dedicated to developing curriculum that bridges the gap between academic learning and industry needs.
                 </p>
               </div>
             </div>

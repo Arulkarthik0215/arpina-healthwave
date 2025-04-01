@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle, FileText, Headset, MonitorSmartphone } from 'lucide-react';
+import { ArrowRight, CheckCircle, Headset, Users, Laptop, GraduationCap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -33,16 +33,16 @@ const Index: React.FC = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-gradient-to-r from-brand-700 via-brand-600 to-purple-700 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center"></div>
+          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center"></div>
         </div>
         <div className="container relative z-10 mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            Helping Healthcare Providers <br className="hidden md:block" />
-            Maximize Revenue & Efficiency
+            Redefining Excellence in BPO, <br className="hidden md:block" />
+            IT Placement, and Training
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            Comprehensive medical informatics solutions designed to streamline operations, 
-            improve patient care, and boost your bottom line.
+            Transforming business operations and fostering career growth in the digital era with innovative, 
+            reliable, and scalable solutions.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button size="lg" className="bg-white text-brand-700 hover:bg-gray-100" asChild>
@@ -62,51 +62,51 @@ const Index: React.FC = () => {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 fade-in-section">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Our Services</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Our Core Services</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive solutions tailored to the unique needs of healthcare providers.
+              Comprehensive solutions tailored to meet the needs of businesses and professionals alike.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* RCM Billing Services */}
+            {/* BPO Services */}
             <div className="bg-white rounded-lg shadow-lg p-8 transition-transform duration-300 hover:-translate-y-2 fade-in-section">
               <div className="p-4 bg-brand-50 rounded-full inline-block mb-6">
-                <FileText size={32} className="text-brand-600" />
+                <Headset size={32} className="text-brand-600" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-800">RCM Billing Services</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-800">BPO Services</h3>
               <p className="text-gray-600 mb-6">
-                Maximize revenue, reduce denials, and improve collections with our comprehensive revenue cycle management solutions.
+                Streamline your workflow, reduce operational costs, and elevate customer satisfaction with our comprehensive BPO services.
               </p>
-              <Link to="/services#rcm" className="text-brand-600 font-medium flex items-center hover:text-brand-700 transition-colors">
+              <Link to="/services#bpo" className="text-brand-600 font-medium flex items-center hover:text-brand-700 transition-colors">
                 Learn More <ArrowRight size={16} className="ml-2" />
               </Link>
             </div>
 
-            {/* Ancillary Services */}
+            {/* IT & Software Placement */}
             <div className="bg-white rounded-lg shadow-lg p-8 transition-transform duration-300 hover:-translate-y-2 fade-in-section">
               <div className="p-4 bg-purple-50 rounded-full inline-block mb-6">
-                <Headset size={32} className="text-purple-600" />
+                <Users size={32} className="text-purple-600" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-800">Ancillary Services</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-800">IT & Software Placement</h3>
               <p className="text-gray-600 mb-6">
-                24/7 front desk operations, remote assistance, and administrative support to reduce your operational burden.
+                Connecting talent with the right opportunities. We source, vet, and match skilled professionals with businesses in need.
               </p>
-              <Link to="/services#ancillary" className="text-purple-600 font-medium flex items-center hover:text-purple-700 transition-colors">
+              <Link to="/services#placement" className="text-purple-600 font-medium flex items-center hover:text-purple-700 transition-colors">
                 Learn More <ArrowRight size={16} className="ml-2" />
               </Link>
             </div>
 
-            {/* IT Support */}
+            {/* IT & Software Training */}
             <div className="bg-white rounded-lg shadow-lg p-8 transition-transform duration-300 hover:-translate-y-2 fade-in-section">
               <div className="p-4 bg-teal-50 rounded-full inline-block mb-6">
-                <MonitorSmartphone size={32} className="text-teal-600" />
+                <GraduationCap size={32} className="text-teal-600" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-800">IT Support & Digital Solutions</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-800">IT & Software Training</h3>
               <p className="text-gray-600 mb-6">
-                Cloud-based IT solutions, website development, and HIPAA-compliant technical support for your practice.
+                Industry-expert crafted programs providing real-world experience and cutting-edge skills for all career stages.
               </p>
-              <Link to="/services#it-support" className="text-teal-600 font-medium flex items-center hover:text-teal-700 transition-colors">
+              <Link to="/services#training" className="text-teal-600 font-medium flex items-center hover:text-teal-700 transition-colors">
                 Learn More <ArrowRight size={16} className="ml-2" />
               </Link>
             </div>
@@ -125,41 +125,41 @@ const Index: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="fade-in-section">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Why Choose ARPINA SOLUTIONS?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Why Choose Arpina Solutions?</h2>
               <p className="text-lg text-gray-600 mb-8">
-                We combine healthcare expertise with cutting-edge technology to deliver solutions that drive results for medical practices of all sizes.
+                With over a decade of experience, we bring a wealth of industry knowledge and a proven track record in BPO services, talent placement, and IT training.
               </p>
               
               <div className="space-y-4">
                 <div className="flex items-start">
                   <CheckCircle size={24} className="text-brand-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-1">Cost-effective Solutions</h4>
-                    <p className="text-gray-600">Reduce operational costs while maximizing revenue potential.</p>
+                    <h4 className="font-bold text-gray-800 mb-1">Proven Expertise</h4>
+                    <p className="text-gray-600">Over a decade of experience with a proven track record in all our service areas.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
                   <CheckCircle size={24} className="text-brand-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-1">24/7 Customer Support</h4>
-                    <p className="text-gray-600">Our dedicated team is available around the clock to assist with any issues.</p>
+                    <h4 className="font-bold text-gray-800 mb-1">Quality-Centric Approach</h4>
+                    <p className="text-gray-600">Stringent quality control protocols ensuring consistent and superior results.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
                   <CheckCircle size={24} className="text-brand-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-1">Industry Expertise</h4>
-                    <p className="text-gray-600">Over 10 years of specialized experience in medical billing and healthcare IT.</p>
+                    <h4 className="font-bold text-gray-800 mb-1">Client-First Philosophy</h4>
+                    <p className="text-gray-600">Building lasting relationships by delivering customized solutions that prioritize your needs.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
                   <CheckCircle size={24} className="text-brand-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-1">Fully HIPAA-compliant Services</h4>
-                    <p className="text-gray-600">Your data security and patient privacy are our top priorities.</p>
+                    <h4 className="font-bold text-gray-800 mb-1">Innovative & Adaptive Solutions</h4>
+                    <p className="text-gray-600">Staying at the forefront of industry trends to keep you competitive.</p>
                   </div>
                 </div>
               </div>
@@ -167,8 +167,8 @@ const Index: React.FC = () => {
             
             <div className="rounded-lg overflow-hidden shadow-2xl fade-in-section">
               <img 
-                src="https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1171&q=80" 
-                alt="Healthcare professionals in a meeting" 
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1171&q=80" 
+                alt="Business professionals in a meeting" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -182,7 +182,7 @@ const Index: React.FC = () => {
           <div className="text-center mb-16 fade-in-section">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">What Our Clients Say</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Don't just take our word for it. Here's what healthcare providers like you have to say about ARPINA SOLUTIONS.
+              Don't just take our word for it. Here's what our clients have to say about Arpina Solutions Pvt Ltd.
             </p>
           </div>
 
@@ -199,11 +199,11 @@ const Index: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-600 mb-6 italic">
-                "ARPINA SOLUTIONS transformed our revenue cycle management. Their team helped us increase collections by 30% and reduce denials by 25%. The ROI has been incredible."
+                "Arpina Solutions transformed our customer support operations. Their BPO team helped us improve response times by 45% and increased our customer satisfaction scores significantly."
               </p>
               <div>
-                <p className="font-bold text-gray-800">Dr. Sarah Johnson</p>
-                <p className="text-gray-500">Family Medicine Practice, Dallas</p>
+                <p className="font-bold text-gray-800">Rajesh Kumar</p>
+                <p className="text-gray-500">CEO, Tech Innovations Pvt Ltd</p>
               </div>
             </div>
 
@@ -219,11 +219,11 @@ const Index: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-600 mb-6 italic">
-                "Their 24/7 front desk support has been a game-changer for our practice. Patient satisfaction is up, and our staff can focus on clinical care instead of administrative tasks."
+                "Their IT placement services are exceptional. They understood our specific needs and connected us with top-tier professionals who have become integral to our development team."
               </p>
               <div>
-                <p className="font-bold text-gray-800">Dr. Michael Chen</p>
-                <p className="text-gray-500">Cardiology Specialists, Houston</p>
+                <p className="font-bold text-gray-800">Priya Sharma</p>
+                <p className="text-gray-500">HR Director, NextGen Solutions</p>
               </div>
             </div>
 
@@ -239,11 +239,11 @@ const Index: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-600 mb-6 italic">
-                "The IT solutions from ARPINA have modernized our entire practice. Their HIPAA-compliant systems give us peace of mind, and their technical support is always responsive and helpful."
+                "The training program at Arpina Solutions gave me the skills and confidence I needed to launch my career in software development. Their placement assistance helped me land my dream job."
               </p>
               <div>
-                <p className="font-bold text-gray-800">Lisa Rodriguez</p>
-                <p className="text-gray-500">Practice Manager, Austin Medical Group</p>
+                <p className="font-bold text-gray-800">Amit Patel</p>
+                <p className="text-gray-500">Software Developer, Cloud Systems Inc.</p>
               </div>
             </div>
           </div>
@@ -253,10 +253,10 @@ const Index: React.FC = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-brand-700 to-purple-700 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 fade-in-section">Ready to Transform Your Healthcare Practice?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 fade-in-section">Ready to Transform Your Business or Career?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto fade-in-section">
-            Contact us today to learn how ARPINA SOLUTIONS can help you streamline operations, 
-            maximize revenue, and focus on what matters most—your patients.
+            Contact us today to learn how Arpina Solutions can help you streamline operations, 
+            find the perfect talent, or acquire new skills to advance your career.
           </p>
           <Button size="lg" className="bg-white text-brand-700 hover:bg-gray-100 fade-in-section" asChild>
             <Link to="/contact">Schedule a Free Consultation</Link>
