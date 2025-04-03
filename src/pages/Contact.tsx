@@ -119,9 +119,9 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="font-bold text-gray-800 mb-1">Our Office</h4>
                     <p className="text-gray-600">
-                      123 Healthcare Avenue<br />
-                      Medical District<br />
-                      Dallas, TX 75001
+                      1-7-139/25, SRK Nagar Rd,<br />
+                      Musheerabad, Zamistanpur,<br />
+                      Hyderabad, Telangana 500020
                     </p>
                   </div>
                 </div>
@@ -133,13 +133,13 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="font-bold text-gray-800 mb-1">Phone</h4>
                     <p className="text-gray-600">
-                      <a href="tel:+1234567890" className="hover:text-brand-600 transition-colors">
-                        (123) 456-7890
+                      <a href="tel:+919940788562" className="hover:text-brand-600 transition-colors">
+                        +91 99407 88562
                       </a>
                     </p>
                     <p className="text-gray-500 text-sm mt-1">
-                      Monday - Friday: 8am - 8pm EST<br />
-                      Weekend Support: 9am - 5pm EST
+                      Monday - Friday: 9am - 6pm IST<br />
+                      Saturday: 9am - 1pm IST
                     </p>
                   </div>
                 </div>
@@ -151,13 +151,8 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="font-bold text-gray-800 mb-1">Email</h4>
                     <p className="text-gray-600">
-                      <a href="mailto:info@arpinasolutions.com" className="hover:text-brand-600 transition-colors">
-                        info@arpinasolutions.com
-                      </a>
-                    </p>
-                    <p className="text-gray-600 mt-1">
-                      <a href="mailto:support@arpinasolutions.com" className="hover:text-brand-600 transition-colors">
-                        support@arpinasolutions.com
+                      <a href="mailto:admin@arpinasolutions.com" className="hover:text-brand-600 transition-colors">
+                        admin@arpinasolutions.com
                       </a>
                     </p>
                   </div>
@@ -167,7 +162,7 @@ const Contact: React.FC = () => {
               {/* Google Maps */}
               <div className="rounded-lg overflow-hidden shadow-lg h-80 fade-in-section">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107172.54584123519!2d-96.87271221249996!3d32.78617999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9917fb3089a9%3A0x52d4c8aad0e7ab82!2sMedical%20District%2C%20Dallas%2C%20TX!5e0!3m2!1sen!2sus!4v1653915290957!5m2!1sen!2sus" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.915033877696!2d78.4853974!3d17.414315799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9a3def541d29%3A0x8858e24bfe936b36!2s1-7-139%2F25%2C%20SRK%20Nagar%20Rd%2C%20Musheerabad%2C%20Zamistanpur%2C%20Hyderabad%2C%20Telangana%20500020!5e0!3m2!1sen!2sin!4v1659572087291!5m2!1sen!2sin" 
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 
@@ -233,9 +228,9 @@ const Contact: React.FC = () => {
                       <SelectValue placeholder="Select a service" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="rcm">RCM Billing Services</SelectItem>
-                      <SelectItem value="ancillary">Ancillary Services</SelectItem>
-                      <SelectItem value="it-support">IT Support & Digital Solutions</SelectItem>
+                      <SelectItem value="bpo">BPO Services</SelectItem>
+                      <SelectItem value="placement">IT & Software Placement</SelectItem>
+                      <SelectItem value="training">IT & Software Training</SelectItem>
                       <SelectItem value="other">Other</SelectItem>
                     </SelectContent>
                   </Select>
@@ -275,48 +270,6 @@ const Contact: React.FC = () => {
                   )}
                 </Button>
               </form>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16 fade-in-section">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Frequently Asked Questions</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Find quick answers to common questions about our services.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="bg-white rounded-lg shadow-md p-6 fade-in-section">
-              <h3 className="text-xl font-bold mb-3 text-gray-800">How quickly can you implement your services?</h3>
-              <p className="text-gray-600">
-                Most of our services can be implemented within 2-4 weeks, depending on the complexity and scope of your needs. Our team works diligently to ensure a smooth and efficient transition.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-md p-6 fade-in-section">
-              <h3 className="text-xl font-bold mb-3 text-gray-800">Are your services HIPAA compliant?</h3>
-              <p className="text-gray-600">
-                Yes, all of our services are fully HIPAA compliant. We implement robust security measures and protocols to ensure the protection of sensitive healthcare data.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-md p-6 fade-in-section">
-              <h3 className="text-xl font-bold mb-3 text-gray-800">Do you offer customized solutions?</h3>
-              <p className="text-gray-600">
-                Absolutely! We understand that every healthcare practice is unique. Our team works closely with you to understand your specific needs and tailors our solutions accordingly.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-md p-6 fade-in-section">
-              <h3 className="text-xl font-bold mb-3 text-gray-800">What size practices do you work with?</h3>
-              <p className="text-gray-600">
-                We work with healthcare practices of all sizes, from solo practitioners to large multi-specialty groups. Our scalable solutions can be adapted to meet the needs of any practice.
-              </p>
             </div>
           </div>
         </div>
