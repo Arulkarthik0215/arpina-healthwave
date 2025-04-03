@@ -59,18 +59,18 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold mb-4">Our Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/services#rcm" className="text-gray-300 hover:text-white transition-colors">
-                  RCM Billing Services
+                <Link to="/services#bpo" className="text-gray-300 hover:text-white transition-colors">
+                  BPO Services
                 </Link>
               </li>
               <li>
-                <Link to="/services#ancillary" className="text-gray-300 hover:text-white transition-colors">
-                  Ancillary Services
+                <Link to="/services#placement" className="text-gray-300 hover:text-white transition-colors">
+                  IT & Software Placement
                 </Link>
               </li>
               <li>
-                <Link to="/services#it-support" className="text-gray-300 hover:text-white transition-colors">
-                  IT Support & Digital Solutions
+                <Link to="/services#training" className="text-gray-300 hover:text-white transition-colors">
+                  IT & Software Training
                 </Link>
               </li>
             </ul>
@@ -83,19 +83,21 @@ const Footer: React.FC = () => {
               <li className="flex items-start">
                 <MapPin size={20} className="mr-2 mt-1 flex-shrink-0" />
                 <span className="text-gray-300">
-                  123 Healthcare Avenue, Medical District, TX 75001
+                  1-7-139/25, SRK Nagar Rd,<br />
+                  Musheerabad, Zamistanpur,<br />
+                  Hyderabad, Telangana 500020
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="mr-2 flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-gray-300 hover:text-white transition-colors">
-                  (123) 456-7890
+                <a href="tel:+919940788562" className="text-gray-300 hover:text-white transition-colors">
+                  +91 99407 88562
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-2 flex-shrink-0" />
-                <a href="mailto:info@arpinasolutions.com" className="text-gray-300 hover:text-white transition-colors">
-                  info@arpinasolutions.com
+                <a href="mailto:admin@arpinasolutions.com" className="text-gray-300 hover:text-white transition-colors">
+                  admin@arpinasolutions.com
                 </a>
               </li>
             </ul>
