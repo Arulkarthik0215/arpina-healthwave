@@ -28,7 +28,7 @@ const TestimonialsSection: React.FC = () => {
               "Arpina Solutions transformed our customer support operations. Their BPO team helped us improve response times by 45% and increased our customer satisfaction scores significantly."
             </p>
             <div>
-              <p className="font-bold text-gray-800">Rajesh Kumar</p>
+              <p className="font-bold text-gray-800">Dr. Amanda Roberts</p>
               <p className="text-gray-500">CEO, Tech Innovations Pvt Ltd</p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const TestimonialsSection: React.FC = () => {
               "Their IT placement services are exceptional. They understood our specific needs and connected us with top-tier professionals who have become integral to our development team."
             </p>
             <div>
-              <p className="font-bold text-gray-800">Priya Sharma</p>
+              <p className="font-bold text-gray-800">Dr. Jason Anderson</p>
               <p className="text-gray-500">HR Director, NextGen Solutions</p>
             </div>
           </div>
@@ -68,7 +68,7 @@ const TestimonialsSection: React.FC = () => {
               "The training program at Arpina Solutions gave me the skills and confidence I needed to launch my career in software development. Their placement assistance helped me land my dream job."
             </p>
             <div>
-              <p className="font-bold text-gray-800">Amit Patel</p>
+              <p className="font-bold text-gray-800">Ashok Kancharal</p>
               <p className="text-gray-500">Software Developer, Cloud Systems Inc.</p>
             </div>
           </div>
