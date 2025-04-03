@@ -175,68 +175,6 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16 fade-in-section">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Our Leadership Team</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Meet the experts dedicated to your success.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Team Member 1 */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden fade-in-section">
-              <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80" 
-                alt="Anand Sharma" 
-                className="w-full h-64 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-800">Anand Sharma</h3>
-                <p className="text-brand-600 mb-4">Founder & CEO</p>
-                <p className="text-gray-600">
-                  With over 15 years in business transformation and IT services, Anand leads with a vision for innovation and excellence.
-                </p>
-              </div>
-            </div>
-
-            {/* Team Member 2 */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden fade-in-section">
-              <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=688&q=80" 
-                alt="Priya Mehta" 
-                className="w-full h-64 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-800">Priya Mehta</h3>
-                <p className="text-purple-600 mb-4">Director of Placement Services</p>
-                <p className="text-gray-600">
-                  A recruitment strategist with expertise in connecting top-tier talent with leading organizations across industries.
-                </p>
-              </div>
-            </div>
-
-            {/* Team Member 3 */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden fade-in-section">
-              <img 
-                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80" 
-                alt="Vikram Joshi" 
-                className="w-full h-64 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-800">Vikram Joshi</h3>
-                <p className="text-teal-600 mb-4">Head of Training & Development</p>
-                <p className="text-gray-600">
-                  An education innovator dedicated to developing curriculum that bridges the gap between academic learning and industry needs.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <Footer />
     </div>
   );

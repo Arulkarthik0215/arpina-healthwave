@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">ARPINA SOLUTIONS</h3>
             <p className="text-gray-300 mb-4">
-              Helping healthcare providers maximize revenue & efficiency with advanced medical informatics solutions.
+              Your trusted partner in BPO services, IT & software placement, and comprehensive training solutions.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
