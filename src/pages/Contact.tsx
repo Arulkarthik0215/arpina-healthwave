@@ -137,10 +137,6 @@ const Contact: React.FC = () => {
                         +91 99407 88562
                       </a>
                     </p>
-                    <p className="text-gray-500 text-sm mt-1">
-                      Monday - Friday: 9am - 6pm IST<br />
-                      Saturday: 9am - 1pm IST
-                    </p>
                   </div>
                 </div>
                 
