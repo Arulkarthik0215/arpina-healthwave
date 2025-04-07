@@ -29,7 +29,6 @@ const TestimonialsSection: React.FC = () => {
             </p>
             <div>
               <p className="font-bold text-gray-800">Dr. Amanda Roberts</p>
-              <p className="text-gray-500">CEO, Tech Innovations Pvt Ltd</p>
             </div>
           </div>
 
@@ -49,7 +48,6 @@ const TestimonialsSection: React.FC = () => {
             </p>
             <div>
               <p className="font-bold text-gray-800">Dr. Jason Anderson</p>
-              <p className="text-gray-500">HR Director, NextGen Solutions</p>
             </div>
           </div>
 
@@ -69,7 +67,6 @@ const TestimonialsSection: React.FC = () => {
             </p>
             <div>
               <p className="font-bold text-gray-800">Ashok Kancharal</p>
-              <p className="text-gray-500">Software Developer, Cloud Systems Inc.</p>
             </div>
           </div>
         </div>
