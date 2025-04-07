@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import ContactSection from "./components/home/ContactSection";
 
 const queryClient = new QueryClient();
 
@@ -32,3 +33,4 @@ const App = () => (
 );
 
 export default App;
+
