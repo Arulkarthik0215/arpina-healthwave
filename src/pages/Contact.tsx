@@ -104,10 +104,10 @@ const Contact: React.FC = () => {
   
     emailjs
       .send(
-        'service_7lltw4m',           // Your EmailJS service ID
-        'template_ko638pp',          // Your EmailJS template ID
+        'service_paad4hs',           // Your EmailJS service ID
+        'template_r4vvpra',          // Your EmailJS template ID
         templateParams,
-        'WwXY3DsBiLnx3y-cn'          // Your EmailJS public key
+        'CTzA4HeTjm_LOX9nj'          // Your EmailJS public key
       )
       .then(() => {
         setIsSubmitting(false);
